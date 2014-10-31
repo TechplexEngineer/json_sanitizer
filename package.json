@@ -1,6 +1,6 @@
 {
   "name": "json_sanitizer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parse any JSON that would be valid in javascript",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "json-clean"
   ],
   "author": "Blake Bourque",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TechplexEngineer/json-sanitizer/issues"
   },
