@@ -14,10 +14,10 @@ module.exports = exports = function(json, callback) {
 		out = out.substring(1, out.length-1);
 
 		if (output.result[1] == '{') {
-			callback(null, out)
+			callback(null, out) //no error as valid responses will start with a {
 		} else {
-			callback(out, null)
+			callback(out, null) //error
 		}
 
 	});
-}
+};
