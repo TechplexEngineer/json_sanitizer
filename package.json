@@ -1,9 +1,10 @@
 {
-  "name": "json-sanitizer",
+  "name": "json_sanitizer",
   "version": "0.0.1",
   "description": "Parse any JSON that would be valid in javascript",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
