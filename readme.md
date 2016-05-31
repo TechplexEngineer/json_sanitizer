@@ -5,7 +5,7 @@ Parse any JSON that would be valid in javascript
 
 ## Example
 
-```
+```javascript
 var json_sanitizer = require('json_sanitizer');
 
 //Fill the json variable with javascript valid JSON
